@@ -1,0 +1,15 @@
+2023-07-22 13:19:27,050 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-22 13:19:27,051 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Configure stats pid to 15156
+2023-07-22 13:19:27,051 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Loading settings from C:\Users\motom\.config\wandb\settings
+2023-07-22 13:19:27,051 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Loading settings from C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\settings
+2023-07-22 13:19:27,052 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-22 13:19:27,052 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-22 13:19:27,054 INFO    MainThread:15156 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-22 13:19:27,056 INFO    MainThread:15156 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131927-p5xop3xr\logs\debug.log
+2023-07-22 13:19:27,057 INFO    MainThread:15156 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131927-p5xop3xr\logs\debug-internal.log
+2023-07-22 13:19:27,058 INFO    MainThread:15156 [wandb_init.py:init():547] calling init triggers
+2023-07-22 13:19:27,058 INFO    MainThread:15156 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2023-07-22 13:19:27,058 INFO    MainThread:15156 [wandb_init.py:init():591] wandb.init() called when a run is still active
+2023-07-22 13:19:27,060 INFO    MainThread:15156 [wandb_run.py:_config_callback():1281] config_cb None None {'test_size': 0.095, 'train_len': [1951, 90], 'test_len': [488, 90]}
+2023-07-22 13:19:35,738 WARNING MsgRouterThr:15156 [router.py:message_loop():77] message_loop has been closed

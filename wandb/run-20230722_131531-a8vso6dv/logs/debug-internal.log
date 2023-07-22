@@ -1,0 +1,259 @@
+2023-07-22 13:15:31,447 INFO    StreamThr :524 [internal.py:wandb_internal():86] W&B internal server running at pid: 524, started at: 2023-07-22 13:15:31.445925
+2023-07-22 13:15:31,452 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status
+2023-07-22 13:15:31,465 INFO    WriterThread:524 [datastore.py:open_for_write():85] open: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\run-a8vso6dv.wandb
+2023-07-22 13:15:31,473 DEBUG   SenderThread:524 [sender.py:send():369] send: header
+2023-07-22 13:15:31,484 DEBUG   SenderThread:524 [sender.py:send():369] send: run
+2023-07-22 13:15:32,393 INFO    SenderThread:524 [dir_watcher.py:__init__():211] watching files in: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files
+2023-07-22 13:15:32,394 INFO    SenderThread:524 [sender.py:_start_run_threads():1100] run started: a8vso6dv with start time 1690006531.45889
+2023-07-22 13:15:32,394 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: summary_record
+2023-07-22 13:15:32,397 INFO    SenderThread:524 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-22 13:15:32,417 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: check_version
+2023-07-22 13:15:32,418 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: check_version
+2023-07-22 13:15:33,289 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: run_start
+2023-07-22 13:15:33,427 DEBUG   HandlerThread:524 [system_info.py:__init__():31] System info init
+2023-07-22 13:15:33,427 DEBUG   HandlerThread:524 [system_info.py:__init__():46] System info init done
+2023-07-22 13:15:33,427 INFO    HandlerThread:524 [system_monitor.py:start():181] Starting system monitor
+2023-07-22 13:15:33,428 INFO    SystemMonitor:524 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-22 13:15:33,428 INFO    HandlerThread:524 [system_monitor.py:probe():201] Collecting system info
+2023-07-22 13:15:33,432 INFO    Thread-16 :524 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\wandb-summary.json
+2023-07-22 13:15:33,441 INFO    SystemMonitor:524 [interfaces.py:start():190] Started cpu monitoring
+2023-07-22 13:15:33,448 DEBUG   HandlerThread:524 [system_info.py:probe():195] Probing system
+2023-07-22 13:15:33,449 INFO    SystemMonitor:524 [interfaces.py:start():190] Started disk monitoring
+2023-07-22 13:15:33,462 INFO    SystemMonitor:524 [interfaces.py:start():190] Started memory monitoring
+2023-07-22 13:15:33,568 INFO    SystemMonitor:524 [interfaces.py:start():190] Started network monitoring
+2023-07-22 13:15:33,687 DEBUG   HandlerThread:524 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-22 13:15:33,688 DEBUG   HandlerThread:524 [system_info.py:probe():240] Probing system done
+2023-07-22 13:15:33,688 DEBUG   HandlerThread:524 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.4', 'heartbeatAt': '2023-07-22T06:15:33.449953', 'startedAt': '2023-07-22T06:15:31.389083', 'docker': None, 'cuda': None, 'args': ('main:app', '--reload'), 'state': 'running', 'program': '<python with no main file>', 'host': 'WS0001', 'username': 'Solsa', 'executable': 'C:\\Users\\motom\\Desktop\\Python\\Sputnik_voice_autoencoder\\venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1400.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1400.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'total': 463.34703063964844, 'used': 415.4665412902832}, 'memory': {'total': 15.810821533203125}}
+2023-07-22 13:15:33,689 INFO    HandlerThread:524 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-22 13:15:33,689 INFO    HandlerThread:524 [system_monitor.py:probe():214] Publishing system info
+2023-07-22 13:15:33,690 DEBUG   HandlerThread:524 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-22 13:15:33,693 DEBUG   HandlerThread:524 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-22 13:15:33,697 INFO    HandlerThread:524 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-22 13:15:33,794 DEBUG   SenderThread:524 [sender.py:send():369] send: files
+2023-07-22 13:15:33,795 INFO    SenderThread:524 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-22 13:15:33,856 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:15:33,858 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:15:34,363 DEBUG   SenderThread:524 [sender.py:send():369] send: telemetry
+2023-07-22 13:15:34,364 DEBUG   SenderThread:524 [sender.py:send():369] send: config
+2023-07-22 13:15:34,445 INFO    Thread-16 :524 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:15:34,447 INFO    Thread-16 :524 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\wandb-metadata.json
+2023-07-22 13:15:34,449 INFO    Thread-16 :524 [dir_watcher.py:_on_file_created():272] file/dir created: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\requirements.txt
+2023-07-22 13:15:34,733 INFO    wandb-upload_0:524 [upload_job.py:push():133] Uploaded file C:\Users\motom\AppData\Local\Temp\tmpozhmem7dwandb\im4d90sn-wandb-metadata.json
+2023-07-22 13:15:36,471 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:15:37,391 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:15:42,451 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:15:46,685 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:15:47,700 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:15:48,091 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:15:48,869 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:15:48,870 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:15:53,119 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:15:58,173 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:03,296 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:03,877 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:16:03,878 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:16:04,421 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\config.yaml
+2023-07-22 13:16:09,235 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:14,278 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:18,871 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:16:18,872 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:16:20,147 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:25,196 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:30,246 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:33,570 DEBUG   SystemMonitor:524 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-22 13:16:33,573 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:16:33,868 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:16:33,869 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:16:36,110 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:41,155 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:46,218 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:48,873 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:16:48,874 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:16:52,184 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:16:57,221 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:02,260 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:03,587 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:17:03,869 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:17:03,870 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:17:08,118 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:13,197 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:18,296 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:18,875 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:17:18,875 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:17:24,136 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:29,178 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:33,603 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:17:33,874 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:17:33,875 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:17:34,204 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:39,248 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:44,287 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:48,863 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:17:48,864 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:17:50,195 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:17:55,269 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:00,305 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:03,611 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:18:03,881 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:18:03,882 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:18:06,127 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:11,185 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:16,211 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:18,900 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:18:18,900 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:18:22,178 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:27,233 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:32,275 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:33,620 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:18:33,920 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:18:33,921 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:18:38,229 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:43,250 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:48,319 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:48,926 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:18:48,927 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:18:54,305 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:18:59,356 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:03,635 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:19:03,951 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:19:03,951 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:19:05,183 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:10,230 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:15,288 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:18,961 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-22 13:19:18,962 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: stop_status
+2023-07-22 13:19:20,326 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:25,377 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:25,839 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:19:27,060 DEBUG   SenderThread:524 [sender.py:send():369] send: telemetry
+2023-07-22 13:19:27,061 DEBUG   SenderThread:524 [sender.py:send():369] send: config
+2023-07-22 13:19:27,367 DEBUG   SenderThread:524 [sender.py:send():369] send: exit
+2023-07-22 13:19:27,368 INFO    SenderThread:524 [sender.py:send_exit():574] handling exit code: 0
+2023-07-22 13:19:27,369 INFO    SenderThread:524 [sender.py:send_exit():576] handling runtime: 234
+2023-07-22 13:19:27,370 INFO    SenderThread:524 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-22 13:19:27,371 INFO    SenderThread:524 [sender.py:send_exit():582] send defer
+2023-07-22 13:19:27,372 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,372 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-22 13:19:27,373 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,373 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-22 13:19:27,373 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 1
+2023-07-22 13:19:27,373 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,374 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-22 13:19:27,375 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,375 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-22 13:19:27,375 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 2
+2023-07-22 13:19:27,375 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,376 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-22 13:19:27,376 INFO    HandlerThread:524 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-22 13:19:27,376 DEBUG   SystemMonitor:524 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-22 13:19:27,377 DEBUG   SystemMonitor:524 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-22 13:19:27,379 INFO    HandlerThread:524 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-22 13:19:27,379 INFO    HandlerThread:524 [interfaces.py:finish():202] Joined disk monitor
+2023-07-22 13:19:27,380 INFO    HandlerThread:524 [interfaces.py:finish():202] Joined memory monitor
+2023-07-22 13:19:27,380 INFO    HandlerThread:524 [interfaces.py:finish():202] Joined network monitor
+2023-07-22 13:19:27,382 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,382 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-22 13:19:27,383 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 3
+2023-07-22 13:19:27,383 DEBUG   SenderThread:524 [sender.py:send():369] send: stats
+2023-07-22 13:19:27,384 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,384 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-22 13:19:27,385 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,385 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-22 13:19:27,385 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 4
+2023-07-22 13:19:27,386 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,386 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-22 13:19:27,387 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,387 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-22 13:19:27,387 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 5
+2023-07-22 13:19:27,388 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,388 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-22 13:19:27,389 DEBUG   SenderThread:524 [sender.py:send():369] send: summary
+2023-07-22 13:19:27,390 INFO    SenderThread:524 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-22 13:19:27,391 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,392 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-22 13:19:27,392 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 6
+2023-07-22 13:19:27,393 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,393 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-22 13:19:27,393 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,394 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-22 13:19:27,404 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: status_report
+2023-07-22 13:19:27,727 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 7
+2023-07-22 13:19:27,746 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:27,746 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-22 13:19:27,747 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:27,747 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-22 13:19:27,862 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:19:27,863 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\config.yaml
+2023-07-22 13:19:27,864 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\wandb-summary.json
+2023-07-22 13:19:28,420 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-22 13:19:28,874 INFO    Thread-16 :524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:19:30,404 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 8
+2023-07-22 13:19:30,405 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: poll_exit
+2023-07-22 13:19:30,405 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:30,406 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-22 13:19:30,408 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:30,408 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-22 13:19:30,408 INFO    SenderThread:524 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-22 13:19:30,411 INFO    SenderThread:524 [job_builder.py:build():274] no source found
+2023-07-22 13:19:30,411 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 9
+2023-07-22 13:19:30,412 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:30,412 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-22 13:19:30,413 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:30,414 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-22 13:19:30,414 INFO    SenderThread:524 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-22 13:19:30,908 INFO    SenderThread:524 [dir_watcher.py:_on_file_modified():289] file/dir modified: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:19:30,910 INFO    SenderThread:524 [dir_watcher.py:finish():389] scan: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files
+2023-07-22 13:19:30,911 INFO    SenderThread:524 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\config.yaml config.yaml
+2023-07-22 13:19:30,914 INFO    SenderThread:524 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log output.log
+2023-07-22 13:19:30,926 INFO    SenderThread:524 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\requirements.txt requirements.txt
+2023-07-22 13:19:30,939 INFO    SenderThread:524 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\wandb-metadata.json wandb-metadata.json
+2023-07-22 13:19:30,942 INFO    SenderThread:524 [dir_watcher.py:finish():403] scan save: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\wandb-summary.json wandb-summary.json
+2023-07-22 13:19:30,958 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 10
+2023-07-22 13:19:30,959 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:30,960 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-22 13:19:30,962 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:30,970 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-22 13:19:30,974 INFO    SenderThread:524 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-22 13:19:31,469 INFO    wandb-upload_0:524 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\config.yaml
+2023-07-22 13:19:31,821 INFO    wandb-upload_1:524 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\output.log
+2023-07-22 13:19:31,868 INFO    wandb-upload_2:524 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\requirements.txt
+2023-07-22 13:19:32,168 INFO    wandb-upload_3:524 [upload_job.py:push():133] Uploaded file C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\files\wandb-summary.json
+2023-07-22 13:19:32,370 INFO    Thread-15 (_thread_body):524 [sender.py:transition_state():602] send defer: 11
+2023-07-22 13:19:32,371 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:32,372 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-22 13:19:32,373 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:32,373 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-22 13:19:32,374 INFO    SenderThread:524 [file_pusher.py:join():164] waiting for file pusher
+2023-07-22 13:19:32,374 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 12
+2023-07-22 13:19:32,375 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:32,375 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-22 13:19:32,376 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:32,376 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-22 13:19:33,454 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-22 13:19:33,806 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 13
+2023-07-22 13:19:33,807 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:33,807 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-22 13:19:33,809 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:33,809 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-22 13:19:33,809 INFO    SenderThread:524 [sender.py:transition_state():602] send defer: 14
+2023-07-22 13:19:33,810 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: defer
+2023-07-22 13:19:33,810 INFO    HandlerThread:524 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-22 13:19:33,812 DEBUG   SenderThread:524 [sender.py:send():369] send: final
+2023-07-22 13:19:33,812 DEBUG   SenderThread:524 [sender.py:send():369] send: footer
+2023-07-22 13:19:33,812 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: defer
+2023-07-22 13:19:33,813 INFO    SenderThread:524 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-22 13:19:33,815 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-22 13:19:33,815 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: server_info
+2023-07-22 13:19:33,816 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-22 13:19:33,816 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-22 13:19:33,817 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: poll_exit
+2023-07-22 13:19:33,818 DEBUG   SenderThread:524 [sender.py:send_request():396] send_request: server_info
+2023-07-22 13:19:34,320 INFO    MainThread:524 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2023-07-22 13:19:34,320 INFO    MainThread:524 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2023-07-22 13:19:34,320 INFO    MainThread:524 [wandb_run.py:_footer_sync_info():3423] logging synced files
+2023-07-22 13:19:34,324 DEBUG   HandlerThread:524 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-22 13:19:34,324 INFO    HandlerThread:524 [handler.py:finish():854] shutting down handler
+2023-07-22 13:19:34,856 INFO    WriterThread:524 [datastore.py:close():298] close: C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_131531-a8vso6dv\run-a8vso6dv.wandb
+2023-07-22 13:19:35,332 INFO    SenderThread:524 [sender.py:finish():1526] shutting down sender
+2023-07-22 13:19:35,333 INFO    SenderThread:524 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-22 13:19:35,333 INFO    SenderThread:524 [file_pusher.py:join():164] waiting for file pusher

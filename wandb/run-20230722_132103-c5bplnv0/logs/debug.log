@@ -1,0 +1,28 @@
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Configure stats pid to 7668
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Loading settings from C:\Users\motom\.config\wandb\settings
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Loading settings from C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\settings
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-22 13:21:03,223 INFO    MainThread:7668 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-22 13:21:03,224 INFO    MainThread:7668 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_132103-c5bplnv0\logs\debug.log
+2023-07-22 13:21:03,224 INFO    MainThread:7668 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\wandb\run-20230722_132103-c5bplnv0\logs\debug-internal.log
+2023-07-22 13:21:03,224 INFO    MainThread:7668 [wandb_init.py:init():547] calling init triggers
+2023-07-22 13:21:03,224 INFO    MainThread:7668 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+2023-07-22 13:21:03,224 INFO    MainThread:7668 [wandb_init.py:init():596] starting backend
+2023-07-22 13:21:03,224 INFO    MainThread:7668 [wandb_init.py:init():600] setting up manager
+2023-07-22 13:21:03,229 INFO    MainThread:7668 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-07-22 13:21:03,235 INFO    MainThread:7668 [wandb_init.py:init():606] backend started and connected
+2023-07-22 13:21:03,237 INFO    MainThread:7668 [wandb_init.py:init():705] updated telemetry
+2023-07-22 13:21:03,242 INFO    MainThread:7668 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-22 13:21:03,983 INFO    MainThread:7668 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-22 13:21:04,535 INFO    MainThread:7668 [wandb_run.py:_on_init():2182] got version response 
+2023-07-22 13:21:04,535 INFO    MainThread:7668 [wandb_init.py:init():789] starting run threads in backend
+2023-07-22 13:21:04,711 INFO    MainThread:7668 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-22 13:21:04,711 INFO    MainThread:7668 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-22 13:21:04,711 INFO    MainThread:7668 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-22 13:21:04,711 INFO    MainThread:7668 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-22 13:21:04,712 INFO    MainThread:7668 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-22 13:21:04,712 INFO    MainThread:7668 [wandb_run.py:_config_callback():1281] config_cb None None {'test_size': 0.095, 'train_len': [1951, 90], 'test_len': [488, 90]}
+2023-07-22 13:22:02,101 WARNING MsgRouterThr:7668 [router.py:message_loop():77] message_loop has been closed

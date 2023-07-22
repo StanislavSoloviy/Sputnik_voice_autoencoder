@@ -1,0 +1,23 @@
+CONFUSION_MATRIX :
+[[238   5]
+ [ 70 175]]
+REPORT :
+              precision    recall  f1-score   support
+       False       0.77      0.98      0.86       243
+        True       0.97      0.71      0.82       245
+    accuracy                           0.85       488
+   macro avg       0.87      0.85      0.84       488
+weighted avg       0.87      0.85      0.84       488
+result= True
+type= <class 'bool'>
+C:\Users\motom\Desktop\Python\Sputnik_voice_autoencoder\venv\lib\site-packages\sklearn\base.py:464: UserWarning: X does not have valid feature names, but SVC was fitted with feature names
+  warnings.warn(
+[32mINFO[39m:     Started server process [[36m3064[39m]
+[32mINFO[39m:     Waiting for application startup.
+[32mINFO[39m:     Application startup complete.
+[32mINFO[39m:     127.0.0.1:49523 - "[1mGET /docs HTTP/1.1[22m" [32m200 OK
+[32mINFO[39m:     127.0.0.1:49523 - "[1mGET /openapi.json HTTP/1.1[22m" [32m200 OK
+[32mINFO[39m:     Shutting down
+[32mINFO[39m:     Waiting for application shutdown.
+[32mINFO[39m:     Application shutdown complete.
+[32mINFO[39m:     Finished server process [[36m3064[39m]
